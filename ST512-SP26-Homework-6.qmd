@@ -4,3 +4,41 @@ author: "Jason Menjivar-Hernandez"
 format: pdf
 editor: visual
 ---
+
+## Problem 1 
+
+**a**
+
+$H_o: \sigma_{\alpha}^2$ = 0 
+
+$H_A: \sigma_{\alpha}^2$ > 0 
+
+F.value = $\frac{MSA}{MSE}$ = 238.7
+
+p.value $\approx$ 0.0000 
+
+Reject null hypothesis. There is strong evidence that mean sodium content is NOT the same in all brands. 
+
+**b**
+
+$\bar{y}_{1.} \approx$ 23.64 mg 
+
+$\bar{y}_{2.} \approx$ 10.68 mg 
+
+**c**
+
+$\sigma^2$ = MSE = 0.72 
+
+$\hat{\sigma}_\mu$ = $S^2_\mu$ = $\frac{MS_{Tr}-MSE}{n}$ = $\frac{170.91-0.72}{8}$ = 21.274 
+
+**d**
+
+$\hat{p}$ = $\frac{21.274}{0.72+21.274}$ = 0.967 
+
+Therefore, approximately 97% of variation in the sodium content is due to the different brands. 
+
+## Problem 2 
+
+**a**
+
+
