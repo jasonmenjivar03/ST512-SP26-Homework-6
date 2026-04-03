@@ -5,40 +5,58 @@ format: pdf
 editor: visual
 ---
 
-## Problem 1 
+## Problem 1
 
 **a**
 
-$H_o: \sigma_{\alpha}^2$ = 0 
+$H_o: \sigma_{\alpha}^2$ = 0
 
-$H_A: \sigma_{\alpha}^2$ > 0 
+$H_A: \sigma_{\alpha}^2$ \> 0
 
 F.value = $\frac{MSA}{MSE}$ = 238.7
 
-p.value $\approx$ 0.0000 
+p.value $\approx$ 0.0000
 
-Reject null hypothesis. There is strong evidence that mean sodium content is NOT the same in all brands. 
+Reject null hypothesis. There is strong evidence that mean sodium content is NOT the same in all brands.
 
 **b**
 
-$\bar{y}_{1.} \approx$ 23.64 mg 
+$\bar{y}_{1.} \approx$ 23.64 mg
 
-$\bar{y}_{2.} \approx$ 10.68 mg 
+$\bar{y}_{2.} \approx$ 10.68 mg
 
 **c**
 
-$\sigma^2$ = MSE = 0.72 
+$\sigma^2$ = MSE = 0.72
 
-$\hat{\sigma}_\mu$ = $S^2_\mu$ = $\frac{MS_{Tr}-MSE}{n}$ = $\frac{170.91-0.72}{8}$ = 21.274 
+$\hat{\sigma}_\mu$ = $S^2_\mu$ = $\frac{MS_{Tr}-MSE}{n}$ = $\frac{170.91-0.72}{8}$ = 21.274
 
 **d**
 
-$\hat{p}$ = $\frac{21.274}{0.72+21.274}$ = 0.967 
+$\hat{p}$ = $\frac{21.274}{0.72+21.274}$ = 0.967
 
-Therefore, approximately 97% of variation in the sodium content is due to the different brands. 
+Therefore, approximately 97% of variation in the sodium content is due to the different brands.
 
-## Problem 2 
+## Problem 2
 
 **a**
+
+| Source   | df  | SS   | MS     | F-value |
+|----------|-----|------|--------|---------|
+| Rater    | 7   | 1641 | 234.43 | 5.018   |
+| Product  | 4   | 892  | 223.00 | 4.772   |
+| R * P   | 28  | 1308 | 46.71  | 6.362   |
+| Error    | 120 | 881  | 7.34   |         |
+
+**b**
+
+$\sigma^2$ = MSE = 7.3417 
+
+$\sigma^2_{\alpha \beta}$ = $\frac{MS_{R*P}-MSE}{n}$ = $\frac{46.7143-7.3417}{4}$ = 9.8432
+
+$\sigma^2_{\alpha}$ = $\frac{MS_{R}-MS_{R*P}}{bn}$ = $\frac{234.4286-46.7143}{5*4}$ = 9.3857
+
+$\sigma^2_{\beta}$ = $\frac{MS_{P}-MS_{R*P}}{an}$ = $\frac{223.00-46.7143}{8*4}$ = 5.5089
+
 
 
